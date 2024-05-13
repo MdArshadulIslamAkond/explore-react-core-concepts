@@ -1,7 +1,8 @@
 // import Todo from './component/todo'
 import './App.css'
+import Countries from './component/countries'
 // import Actor from './component/actor'
-import SiteEffect from './component/siteEffect'
+// import SiteEffect from './component/siteEffect'
 
 function App() {
 
@@ -9,7 +10,9 @@ function App() {
 
   return (
     <>
-    <SiteEffect />
+      <Countries />
+
+    {/* <SiteEffect /> */}
     
       {/* <h1>Vite + React</h1>
       <Todo task="Learn React" isDone={true} />
